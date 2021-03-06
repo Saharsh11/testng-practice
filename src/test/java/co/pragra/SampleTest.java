@@ -51,7 +51,7 @@ public class SampleTest {
     }
 
 
-    @Test(priority = 30)
+    @Test(priority = 1)
     public void ntc1(){
         System.out.println("NTC1");
     }
@@ -62,5 +62,9 @@ public class SampleTest {
     @Test()
     public void ntc3(){
         System.out.println("NTC3");
+    }
+    @Test(priority = 20)
+    public void ntc4(){
+        System.out.println("NTC4");
     }
 }
