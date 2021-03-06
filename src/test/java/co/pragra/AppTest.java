@@ -29,19 +29,19 @@ public class AppTest {
       Assert.assertTrue(app.checkNameStartingwithA(), "There is not match with A");
     }
 
-    @Test
+    @Test()
     public void nameTest() {
 
         Assert.assertEquals( app.getNames().get(0),"Atin");
     }
 
-    @Test
-    public void doubleTest() {
-        Assert.assertEquals(app.sumDouble(10,10), 20,0);
-        Assert.assertTrue(true);
-        Assert.assertFalse(false);
-        Assert.assertNotEquals(10,10);
-    }
+//    @Test
+//    public void doubleTest() {
+//        Assert.assertEquals(app.sumDouble(10,10), 20,0);
+//        Assert.assertTrue(true);
+//        Assert.assertFalse(false);
+//        Assert.assertNotEquals(10,10);
+//    }
 
     //
 }
